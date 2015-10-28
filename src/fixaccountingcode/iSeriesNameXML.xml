@@ -3,6 +3,8 @@
 <iSeries>
     <System>
         <Name>KCATA400</Name>
+    </System>
+    <System>
         <Name>KCATA400B</Name>
     </System>
 </iSeries>
