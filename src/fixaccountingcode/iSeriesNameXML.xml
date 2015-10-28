@@ -2,9 +2,9 @@
 
 <iSeries>
     <System>
-        <Name>KCATA400</Name>
+        <Name>FIRST400</Name>
     </System>
     <System>
-        <Name>KCATA400B</Name>
+        <Name>SECOND400</Name>
     </System>
 </iSeries>

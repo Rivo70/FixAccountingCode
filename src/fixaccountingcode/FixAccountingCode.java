@@ -53,7 +53,7 @@ public class FixAccountingCode {
             //String system = nNode.getNodeValue();
             
             AS400 system400;
-            system400 = new AS400(system.trim(), "rrodriguez", "jackme02");
+            system400 = new AS400(system.trim(), "", "");
                
             try
             {
