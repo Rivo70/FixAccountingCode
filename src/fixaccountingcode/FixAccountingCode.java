@@ -48,11 +48,12 @@ public class FixAccountingCode {
             Node nNode = nList.item(t);
             Element eElement = (Element) nNode;
             
-            //String system = eElement.getTextContent();
-            String system = nNode.getNodeValue();
+            String system = eElement.getElementsByTagName("Name").item(0).getTextContent();
+            
+            //String system = nNode.getNodeValue();
             
             AS400 system400;
-            system400 = new AS400(system.trim(), "", "");
+            system400 = new AS400(system.trim(), "rrodriguez", "jackme02");
                
             try
             {
